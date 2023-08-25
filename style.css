@@ -300,15 +300,18 @@ span{
   #contact-me,
   #projects {
     height: 100vh;
+    
 
   }
 
   #about-me{
     height: 100vh;
+    
   }
   #skills{
     height: 100vh;
-    padding-top: 8rem;
+    padding-top: 12rem;
+    
   }
 
   
@@ -400,6 +403,7 @@ span{
 
   width: 80vw;
   max-width: var(--fixed-width);
+  
 
 }
 
@@ -410,6 +414,9 @@ span{
 
 }
 
+#project-container{
+  padding-top: 7rem;
+}
 
 .review:hover {
   box-shadow: var(--dark-shadow);
@@ -581,6 +588,7 @@ border: 1px solid rgba(108, 108, 108, 0.07);
   
   .title {
     text-align: center;
+    
     margin-bottom: 2rem;
   }
   .underline {
