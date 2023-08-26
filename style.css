@@ -668,14 +668,23 @@ span{
   }
 
 
-  .contact-container{
+  .box-container .contact-container {
+    display: flex;
+    align-items: left;
+    justify-content:left;
+    flex-direction: column;
+
    
+  }
+
+ .contact-container{
+
    padding: 2rem auto;
    margin:  1rem auto;
    
   }
 
-  .contact-container .sentence{
+  .contact-container .contact-sentence{
    
     font-size: 0.7rem;
    
@@ -836,6 +845,8 @@ border: 1px solid rgba(108, 108, 108, 0.07);
   font-size: 7px;
 }
 
+
+
 .box-container .sentence  {
   font-size: 13px;
   padding: 0;
@@ -843,11 +854,6 @@ border: 1px solid rgba(108, 108, 108, 0.07);
 
 }
 
-.box-container .contact-container .sentence{
-  font-size: 10px;
-
-
-}
 
 
 
