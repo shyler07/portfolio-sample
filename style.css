@@ -415,6 +415,7 @@ span{
 .box-container > .sentence{
   font-size: 12px;
   padding: 2rem;
+  text-indent: 3rem;
   
 
 }
@@ -840,8 +841,17 @@ border: 1px solid rgba(108, 108, 108, 0.07);
 
 .box-container .sentence  {
   font-size: 13px;
+  padding: 0;
+  text-indent: 3rem;
 
 }
+
+.box-container .contact-container > p{
+  font-size: 2px;
+
+
+}
+
 
 
 
