@@ -111,10 +111,47 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 1,
       title: "Random Qoutes",
-      category: "Vanilla JS",
-      img: "./dist/asset/atom.png",
-      desc: "Get randowm qoutes using Fetch and API",
+      category: "html, css, vanilla JS, fetch API",
+      img: "./dist/asset/QuotesAPI.JPG",
+      desc: "Get random quotes using Fetch and API",
+      link: "https://shyler-random-qoutes-generator-api.netlify.app/"
+    },
+
+    {
+      id: 2,
+      title: "NameTracer App",
+      category: "html, css, vanilla JS",
+      img: "./dist/asset/nametracer.JPG",
+      desc: "This name tracing app can help you improve your kids name recognition, spelling, and letter formation.",
+      link: "https://nametracerapp2023.netlify.app/"
+    },
+
+    {
+      id: 3,
+      title: "Taco Webpage ",
+      category: "html, css, vanilla JS, fontawesome",
+      img: "./dist/asset/taco.jpg",
+      desc: "Taco Website using CSS Grid",
+      link: "https://tacodynamicmenuusingcssgrid.netlify.app/"
+      
+    },
+
+    {
+      id: 4,
+      title: "Food Menu Webpage ",
+      category: "html, css, vanilla JS, fontawesome",
+      img: "./dist/asset/foodmenu.jpg",
+      desc: "Food Menu Dynamic Website ",
+      link: "https://dynamicfoodmenu.netlify.app/"
+      
     }
+
+
+   
+
+ 
+
+    
 
   ];
 
@@ -131,12 +168,24 @@ document.addEventListener("DOMContentLoaded", () => {
       //console.log(item) // display all item in menuList
        // return item;
   
-        return ` <article class="menu-item">
+        return ` 
+                  <article class="project-item">
                     <h4>${item.title}</h4>
                     <img class ="photo" alt="${item.title}" src="${item.img}">
-                <div class="item-info">
-                  <p class="item-text">${item.desc}</p>
-                </div>
+                  
+                    <div class="item-info">
+                      <p class="item-text">${item.desc}</p>
+                    </div>
+
+                   <div class="category">
+                      <p>${item.category}</p>
+                   </div>
+
+                    
+                    <div class= btn-live-container>
+                    <a href="${item.link}"  class="btn btn-live-demo">Live Demo</a>
+                    </div>
+
                 </article> `
   
       });
