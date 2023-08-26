@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectList = [
     {
       id: 1,
-      title: "Random Qoutes",
+      title: "Random Quotes",
       category: "html, css, vanilla JS, fetch API",
       img: "./dist/asset/QuotesAPI.JPG",
       desc: "Get random quotes using Fetch and API",
