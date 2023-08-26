@@ -201,11 +201,18 @@ document.addEventListener("DOMContentLoaded", () => {
     //console.log("shake and bake")
     //parameter item get the items in menuList
     displayMenuItems(projectList)
-  
+    footerDate();
+
+    
+
     
   });
 
+// get the year today display in footer
+  function footerDate(){
+
+  const date = document.querySelector("#date");
+  date.innerHTML = new Date().getFullYear();
 
 
-
-
+}
