@@ -527,7 +527,7 @@ span{
   flex-direction: column;
 
  
-  margin: 1 auto;
+  margin: auto;
   padding: 1rem;
     
 
@@ -821,6 +821,27 @@ border: 1px solid rgba(108, 108, 108, 0.07);
 
 
 /* Media queries */
+@media screen and (max-width: 480px) {
+
+.skill-container  div{
+
+  
+
+  min-height: 25px;
+  width: 25px;
+
+}
+
+.skill-container p {
+
+  font-size: 7px;
+}
+
+
+
+
+
+}
 
 @media screen and (min-width: 500px) {
 
