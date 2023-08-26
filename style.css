@@ -610,8 +610,8 @@ span{
 
   .photo {
     /* object-fit:cover; */
-    height: 230px;
-    width: 100px;
+    height: 100%;
+    width: 100%px;
     border: 0.1rem solid var(--clr-primary-dark-2);
     border-radius: var(--radius);
   }
