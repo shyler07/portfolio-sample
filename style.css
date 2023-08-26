@@ -671,13 +671,13 @@ span{
   .contact-container{
    
    padding: 2rem auto;
-   margin:  auto;
+   margin:  1rem auto;
    
   }
 
-  .contact-container p{
+  .contact-container .sentence{
    
-    font-size: 0.9rem;
+    font-size: 0.7rem;
    
    }
  
@@ -827,15 +827,12 @@ border: 1px solid rgba(108, 108, 108, 0.07);
 
 .skill-container  div{
 
-  
-
   min-height: 25px;
   width: 25px;
 
 }
 
 .skill-container p {
-
   font-size: 7px;
 }
 
@@ -846,8 +843,8 @@ border: 1px solid rgba(108, 108, 108, 0.07);
 
 }
 
-.box-container .contact-container > p{
-  font-size: 2px;
+.box-container .contact-container .sentence{
+  font-size: 10px;
 
 
 }
