@@ -74,11 +74,11 @@ h4 {
   font-family: var(--ff-primary);
 }
 
-h1 {
+  h1 {
     font-size: 3rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   h3 {
     font-size: 1.25rem;
@@ -204,15 +204,15 @@ span{
 
 
 .container-banner > h1{
-    font-size:3rem;
+    font-size:28px;
 }
 
-.container.banner > h2{
-    display: flex;
+.banner > h2{
+     /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  */
     
-    font-size: 30px;
+    font-size: 25px; 
     
 }
 
@@ -281,11 +281,13 @@ span{
   }
 
  
+  
 
   .container-banner h1 {
     color: var(--clr-white);
     text-transform: uppercase;
   }
+
   .container-banner p {
     color: var(--clr-white);
     max-width: 25rem;
@@ -686,7 +688,9 @@ span{
 
   .contact-container .contact-sentence{
    
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    color: var(--clr-primary-dark);
+    font-weight: bold;
    
    }
  
@@ -703,7 +707,8 @@ span{
   body.dark .links a,
   body.dark .top-link,
   body.dark p,
-  body.dark .contact-container h3
+  body.dark .contact-container h3,
+  body.dark .contact-sentence
    {color: #fff;}
 
  
@@ -761,10 +766,6 @@ border: 1px solid rgba(108, 108, 108, 0.07);
   body.dark .category p{
     color: var(--clr-primary-dark);
   }
-
-  
-
-
 
 
   .checkbox {
@@ -873,6 +874,15 @@ border: 1px solid rgba(108, 108, 108, 0.07);
     padding-top: 10rem;
   }
 
+  .container-banner > h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-container .contact-sentence{
+  
+    font-size: 1rem;
+}
+
 
  
 }
@@ -939,6 +949,15 @@ border: 1px solid rgba(108, 108, 108, 0.07);
     margin: 0 auto;
   }
 
+
+  .container-banner > h2 {
+    font-size: 3rem;
+  }
+
+  .container-banner > h1 {
+    font-size: 5rem;
+  }
+
   .skill-container {
     display: flex;
     justify-content: center;
@@ -994,13 +1013,10 @@ border: 1px solid rgba(108, 108, 108, 0.07);
   
   }
 
-  .contact-container p{
-   
-    font-size: 1.2rem;
-   
-   }
- 
-
+  .contact-container .contact-sentence{
+  
+      font-size: 1rem;
+  }
 
    
     
